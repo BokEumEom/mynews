@@ -28,18 +28,18 @@ A collection of example projects using Copper.
 
 2. Clone Repository
 ```
-❯ git clone https://github.com/gocopper/examples.git copper-ex
+❯ git clone https://github.com/BokEumEom/mynews.git copper
 ```
 
 3. Run App Server
 ```
-❯ cd copper-ex/<project>
+❯ cd copper/<project>
 ❯ copper run
 ```
 
 4. Run NPM (if applicable)
 ```
-❯ cd copper-ex/<project>/web
+❯ cd copper/<project>/web
 ❯ npm run dev
 ```
 

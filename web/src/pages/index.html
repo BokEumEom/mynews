@@ -1,0 +1,17 @@
+{{ define "title" }}
+My News
+{{ end }}
+
+{{ define "links" }}
+<a href="/submit">submit</a>
+{{ end }}
+
+{{ define "content" }}
+
+<div class="flex-col space-y-2">
+    {{ range .Posts }}
+        {{ partial "post" . }}
+    {{ end }}
+</div>
+
+{{ end }}
